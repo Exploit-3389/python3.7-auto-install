@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel db4-devel libpcap-devel xz-devel &&
-wget https://www.python.org/ftp/python/3.6.5/Python-3.6.5.tgz &&
+wget https://www.python.org/ftp/python/3.7.6/Python-3.7.6.tgz &&
 mkdir -p /usr/local/python3/ &&
 tar -xvf Python-3.7.6.tgz &&
 cd Python-3.7.6 &&
